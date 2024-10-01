@@ -3,4 +3,4 @@
 container:
   image: zufrost/zizi_k8s_sept_html:version1
 
-replicaCount: 4
+replicaCount: 5
