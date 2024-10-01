@@ -11,7 +11,7 @@ spec:
     namespace: metrics-server
   source:
     path   : "charts/metrics-server"
-    repoURL: "git@github.com:kubernetes-sigs/metrics-server.git"
+    repoURL: "https://github.com/kubernetes-sigs/metrics-server.git"
     targetRevision: HEAD
     helm:
 #      valueFiles:
