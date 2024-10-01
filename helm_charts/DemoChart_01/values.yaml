@@ -1,0 +1,6 @@
+# Default Values for Helm Chart
+
+container:
+  image: httpd:latest
+
+replicaCount: 1
