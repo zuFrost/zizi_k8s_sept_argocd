@@ -1,0 +1,6 @@
+# Dev Override Values for my Helm Chart
+
+container:
+  image: zufrost/zizi_k8s_sept_html:version2
+
+replicaCount: 4
