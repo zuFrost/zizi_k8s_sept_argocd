@@ -1,16 +1,16 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name     : application_2
+  name     : application1
   namespace: argocd
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name     : in-cluster
-    namespace: application_2
+    namespace: application1
   source:
-    path   : "helm_charts/DemoChart_02"
+    path   : "helm_charts/DemoChart_01"
     repoURL: "git@github.com:zuFrost/zizi_k8s_sept_argocd.git"
     targetRevision: HEAD
     helm:
@@ -18,7 +18,7 @@ spec:
       - values_dev.yaml
       parameters:
       - name: "container.image"
-        value: zufrost/zizi_k8s_sept_html:version2
+        value: zufrost/zizi_k8s_sept_html:version1
 
   project: default
   syncPolicy:
