@@ -18,7 +18,7 @@ spec:
       - values_dev.yaml
       parameters:
       - name: "container.image"
-        value: zufrost/zizi_k8s_sept_html:version2
+        value: zufrost/zizi_k8s_sept_html:version1
 
   project: default
   syncPolicy:
