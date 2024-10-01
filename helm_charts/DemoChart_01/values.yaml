@@ -5,5 +5,5 @@ container:
 
 replicaCount: 1
 
-externalIPs: 
-  - 192.168.178.151
+#externalIPs: 
+#  - 192.168.178.151
