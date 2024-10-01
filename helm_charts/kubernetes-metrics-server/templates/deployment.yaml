@@ -122,6 +122,7 @@ spec:
             - --estimator=exponential
             - --minClusterSize={{ .Values.addonResizer.nanny.minClusterSize }}
             - --use-metrics=true
+            - --kubelet-insecure-tls
           volumeMounts:
             - name: nanny-config-volume
               mountPath: /etc/config
