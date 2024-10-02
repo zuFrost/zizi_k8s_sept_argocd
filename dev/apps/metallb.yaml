@@ -10,8 +10,8 @@ spec:
     name     : in-cluster
     namespace: metallb
   source:
-    path   : "charts/metallb"
-    repoURL: "https://github.com/metallb/metallb.git"
+    path   : "helm_charts/metallb"
+    repoURL: "git@github.com:zuFrost/zizi_k8s_sept_argocd.git"
     targetRevision: HEAD
     helm:
 #      valueFiles:
