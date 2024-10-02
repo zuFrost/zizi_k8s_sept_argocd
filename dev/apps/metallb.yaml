@@ -10,8 +10,8 @@ spec:
     name     : in-cluster
     namespace: metallb
   source:
-    path   : "metallb/metallb"
-    repoURL: "https://metallb.github.io/metallb"
+    path   : "charts/metallb"
+    repoURL: "https://github.com/metallb/metallb.git"
     targetRevision: HEAD
     helm:
 #      valueFiles:
